@@ -12,5 +12,9 @@ public class Memo{
         System.out.println("勉強しろ");
       }
     }
+    add(2,2);
+  }
+  public static void add(int x, int y){
+    System.out.println("x+y=" + (x + y));
   }
 }
