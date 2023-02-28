@@ -13,8 +13,12 @@ public class Memo{
       }
     }
     add(2,2);
+    System.out.println(add(1,2,3));
   }
   public static void add(int x, int y){
     System.out.println("x+y=" + (x + y));
+  }
+  public static int add(int x, int y, int z){
+    return x + y + z;
   }
 }
