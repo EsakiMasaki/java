@@ -14,11 +14,15 @@ public class Memo{
     }
     add(2,2);
     System.out.println(add(1,2,3));
+    name("江﨑","真旗");
   }
   public static void add(int x, int y){
     System.out.println("x+y=" + (x + y));
   }
   public static int add(int x, int y, int z){
     return x + y + z;
+  }
+  public static void name(String lastName, String firstName){
+    System.out.println("名字：" + lastName + "  名前：" + firstName);
   }
 }
