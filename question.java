@@ -5,7 +5,8 @@ public class Question{
       "前職に入社した理由はなんですか？",
       "長所と短所を教えてください",
       "転職を決めた理由を教えてください",
-      "エンジニアになろうと思ったきっかけを教えてください"
+      "エンジニアになろうと思ったきっかけを教えてください",
+      "ご志望動機を教えてください"
     };
     int rand = new java.util.Random().nextInt(questions.length);
     System.out.println(questions[rand]);
