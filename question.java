@@ -8,7 +8,8 @@ public class Question{
       "エンジニアになろうと思ったきっかけを教えてください",
       "ご志望動機を教えてください",
       "今後のキャリアプランについて",
-      "プログラミングを学習して感じたこと"
+      "プログラミングを学習して感じたこと",
+      "学生時代にしていた部活動を教えてください"
     };
     int rand = new java.util.Random().nextInt(questions.length);
     System.out.println(questions[rand]);
