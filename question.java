@@ -11,7 +11,11 @@ public class Question{
       "プログラミングを学習して感じたこと",
       "学生時代にしていた部活動を教えてください"
     };
-    int rand = new java.util.Random().nextInt(questions.length);
-    System.out.println(questions[rand]);
+
+    for (int i = 0; i < 10; i++){
+      int rand = new java.util.Random().nextInt(questions.length);
+      System.out.println(questions[rand]);
+      new java.util.Scanner(System.in).next();
+    }
   }
 }
