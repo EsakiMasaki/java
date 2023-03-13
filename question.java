@@ -13,7 +13,7 @@ public class Question{
       "趣味はなんですか"
     };
 
-    for (int i = 0; i < 10; i++){
+    for (int i = 0; i < 5; i++){
       int rand = new java.util.Random().nextInt(questions.length);
       System.out.println(questions[rand]);
       new java.util.Scanner(System.in).next();
